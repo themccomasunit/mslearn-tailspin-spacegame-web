@@ -1,4 +1,5 @@
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=space-game-web-mmm81173&metric=alert_status)](https://sonarcloud.io/dashboard?id=space-game-web-mmm81173)
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
