@@ -7,7 +7,7 @@ trigger:
 - '*'
   
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'ubuntu-16.04'
   demands:
   - npm
   
@@ -16,10 +16,10 @@ variables:
   
 steps:
 - task: UseDotNet@2
-  displayName: 'Use .NET Core SDK 3.1.102'
+  displayName: 'Use .NET Core SDK 2.2.x'
   inputs:
     packageType: sdk
-    version: 3.1.102
+    version: 2.2.x
   
 - task: Npm@1
   displayName: 'Run npm install'
